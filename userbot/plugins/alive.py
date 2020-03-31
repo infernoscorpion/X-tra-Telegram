@@ -11,7 +11,7 @@ DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "No name set yet nibba, check p
 @command(outgoing=True, pattern="^.alive$")
 async def amireallyalive(alive):
     """ For .alive command, check if the bot is running.  """
-    await alive.edit("**`YO BRO JABTAK YE KHEL KHATAM NHI HOTA APUN IDHARICH HAI ψ(｀∇´)ψ`**\n\n"
+    await alive.edit("**`ha vats me jinda hu aap sunischit rahiye😊 ψ(｀∇´)ψ`**\n\n"
                      "`"
                      "`"
                      "`Database Status: Databases functioning normally!\n\nAlways with you, my master!\n`"
